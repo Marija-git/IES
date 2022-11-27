@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF	xmlns:md="http://iec.ch/2010/schema/CIM_model_description#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cim="http://iec.ch/TC57/2009/CIM-schema-cim14#"
+	xmlns:bcex="http://www.bchydro.com/CIM14/2010/extension#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+	<cim:Terminal rdf:ID="Terminal__1">
+		<cim:IdentifiedObject.mRID>Terminal_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Terminal_NAME</cim:IdentifiedObject.name>
+	</cim:Terminal>
+
+	<cim:DayType rdf:ID="DayType_1">
+		<cim:IdentifiedObject.mRID>DayType_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>DayType_NAME</cim:IdentifiedObject.name>
+	</cim:DayType>
+
+
+	<cim:Season rdf:ID="Season_1">
+		<cim:Season.endDate>12-12-2022</cim:Season.endDate>
+		<cim:Season.startDate>12-12-2022</cim:Season.startDate>
+		<cim:IdentifiedObject.mRID>Season_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Season_NAME</cim:IdentifiedObject.name>
+	</cim:Season>
+
+	
+
+	<cim:RegulatingControl rdf:ID="RegulatingControl_1">
+		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
+		<cim:RegulatingControl.mode>activePower</cim:RegulatingControl.mode>
+		<cim:RegulatingControl.monitoredPhase>A</cim:RegulatingControl.monitoredPhase>
+		<cim:RegulatingControl.targetRange>1.2</cim:RegulatingControl.targetRange>
+		<cim:RegulatingControl.targetValue>1.2</cim:RegulatingControl.targetValue>
+		<cim:RegulatingControl.Terminal rdf:resource="#Terminal__1"/>
+		<cim:IdentifiedObject.mRID>RegulatingControl_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegulatingControl_NAME</cim:IdentifiedObject.name>
+	</cim:RegulatingControl>
+
+	<cim:RegulationSchedule rdf:ID="RegulationSchedule_1">
+		<cim:RegulationSchedule.RegulatingControl rdf:resource="#RegulatingControl_1"/>
+		<cim:SeasonDayTypeSchedule.DayType rdf:resource="#DayType_1"/>
+		<cim:SeasonDayTypeSchedule.Season rdf:resource="#Season_1"/>
+		<cim:BasicIntervalSchedule.startTime>12-12-2022</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>c</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>c</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>A</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.mRID>RegulationSchedule_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegulationSchedule_NAME</cim:IdentifiedObject.name>
+	</cim:RegulationSchedule>
+
+	<cim:AsynchronousMachine rdf:ID="AsynchronousMachine_1">
+		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#RegulatingControl_1"/>
+		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:IdentifiedObject.mRID>AsynchronousMachine_MRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>AsynchronousMachine_NAME</cim:IdentifiedObject.name>
+	</cim:AsynchronousMachine>
+
+
+</rdf:RDF>

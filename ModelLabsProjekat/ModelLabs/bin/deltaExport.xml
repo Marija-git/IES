@@ -1,0 +1,67 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="6">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="Terminal_MRID" />
+            <Property id="IDOBJ_NAME" value="Terminal_NAME" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DayType_MRID" />
+            <Property id="IDOBJ_NAME" value="DayType_NAME" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="SEASON" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="Season_MRID" />
+            <Property id="IDOBJ_NAME" value="Season_NAME" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="REGULATINGCONTROL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RegulatingControl_MRID" />
+            <Property id="IDOBJ_NAME" value="RegulatingControl_NAME" />
+            <Property id="REGULATINGCONTROL_DISCRETE" value="1" />
+            <Property id="REGULATINGCONTROL_MODE" value="activePower" />
+            <Property id="REGULATINGCONTROL_MONITOREDPHASE" value="A" />
+            <Property id="REGULATINGCONTROL_TARGETRANGE" value="1.2" />
+            <Property id="REGULATINGCONTROL_TARGETVALUE" value="1.2" />
+            <Property id="REGULATINGCONTROL_TERMINAL" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="REGULATIONSCHEDULE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RegulationSchedule_MRID" />
+            <Property id="IDOBJ_NAME" value="RegulationSchedule_NAME" />
+            <Property id="BASICINTERVALSCHEDULE_STARTTIME" value="638064000000000000" />
+            <Property id="BASICINTERVALSCHEDULE_VALUE1MULTIPLIER" value="c" />
+            <Property id="BASICINTERVALSCHEDULE_VALUE1UNIT" value="A" />
+            <Property id="BASICINTERVALSCHEDULE_VALUE2MULTIPLIER" value="c" />
+            <Property id="BASICINTERVALSCHEDULE_VALUE2UNIT" value="A" />
+            <Property id="SEASONDAYTYPESCHEDULE_SEASON" value="0x00000003ffffffff" />
+            <Property id="SEASONDAYTYPESCHEDULE_DAYTYPE" value="0x00000002ffffffff" />
+            <Property id="REGULATIONSCHEDULE_REGULATINGCONTROL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="ASYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="AsynchronousMachine_MRID" />
+            <Property id="IDOBJ_NAME" value="AsynchronousMachine_NAME" />
+            <Property id="EQUIPMENT_AGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

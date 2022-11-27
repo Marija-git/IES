@@ -1,0 +1,236 @@
+11/14/2022 4:30:38 AM : Network Model Service Test Client is up and running...
+11/14/2022 4:30:38 AM : Result directory: ../Results
+11/14/2022 4:30:46 AM : Apply update method started.
+11/14/2022 4:30:46 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000003
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000003
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000003
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000003
+
+11/14/2022 4:31:02 AM : Getting values method started.
+11/14/2022 4:31:02 AM : Getting values method successfully finished.
+11/14/2022 4:31:46 AM : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in C:\Users\Marija\Desktop\NOVI PROJEKAT\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 235
+11/14/2022 4:31:46 AM : GetRelatedValues failed. Input string was not in a correct format.
+11/14/2022 4:32:09 AM : Getting extent values method started.
+11/14/2022 4:32:10 AM : Getting extent values method successfully finished.
+11/14/2022 4:32:37 AM : Apply update method started.
+11/14/2022 4:32:37 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000004
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000004
+
+11/14/2022 4:32:40 AM : Apply update method started.
+11/14/2022 4:32:40 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000005
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000005
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000005
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000005
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000005
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000005
+
+11/14/2022 4:32:41 AM : Apply update method started.
+11/14/2022 4:32:41 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000006
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000006
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000006
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000006
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000006
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000006
+
+11/14/2022 4:33:05 AM : Getting values method started.
+11/14/2022 4:33:05 AM : Getting values method successfully finished.
+11/14/2022 4:33:53 AM : Getting values method started.
+11/14/2022 4:33:53 AM : Getting values method successfully finished.
+11/14/2022 4:35:42 AM : Network Model Service Test Client is up and running...
+11/14/2022 4:35:42 AM : Result directory: ../Results
+11/14/2022 4:36:11 AM : Getting values method started.
+11/14/2022 4:36:11 AM : Getting values method successfully finished.
+11/14/2022 4:36:18 AM : Getting values method started.
+11/14/2022 4:36:18 AM : Getting values method for entered id = 12884901887 failed.
+	Getting values for resource with ID = 0x00000002ffffffff failed. Failed to get values for entity with GID = 0x00000002ffffffff. Entity  (GID = 0x00000002ffffffff) does not exist.
+11/14/2022 4:37:13 AM : Getting values method started.
+11/14/2022 4:37:13 AM : Getting values method successfully finished.
+11/14/2022 4:37:47 AM : Getting extent values method started.
+11/14/2022 4:37:48 AM : Getting extent values method successfully finished.
+11/14/2022 4:38:46 AM : Apply update method started.
+11/14/2022 4:38:46 AM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000009
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000009
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000009
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000009
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000009
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000009
+
+11/14/2022 4:38:54 AM : Network Model Service Test Client stopped.
+11/14/2022 5:45:18 PM : Network Model Service Test Client is up and running...
+11/14/2022 5:45:18 PM : Result directory: ../Results
+11/14/2022 5:47:03 PM : Getting values method started.
+11/14/2022 5:47:04 PM : Getting values method successfully finished.
+11/14/2022 5:48:19 PM : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in C:\Users\Marija\Desktop\NOVI PROJEKAT\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 235
+11/14/2022 5:48:19 PM : GetRelatedValues failed. Input string was not in a correct format.
+11/14/2022 5:49:05 PM : Getting related values method started.
+11/14/2022 5:49:06 PM : Getting related values method successfully finished.
+11/14/2022 5:49:59 PM : Getting values method started.
+11/14/2022 5:49:59 PM : Getting values method successfully finished.
+11/14/2022 5:50:21 PM : Getting values method started.
+11/14/2022 5:50:21 PM : Getting values method successfully finished.
+11/14/2022 5:51:42 PM : Getting related values method started.
+11/14/2022 5:51:42 PM : Getting related values method  failed for sourceGlobalId = 12884901898 and association (propertyId = SEASON_SEASONDAYTYPESCHEDULES, type = SEASONDAYTYPESCHEDULE). Reason: Getting related values for resource with ID = 0x000000030000000a failed. Failed to get related values for source GID = 0x000000030000000a. Entity with GID = 0x000000030000000a does not contain prperty with Id = SEASON_SEASONDAYTYPESCHEDULES..
+11/14/2022 5:54:11 PM : Getting related values method started.
+11/14/2022 5:54:11 PM : Getting related values method  failed for sourceGlobalId = 12884901898 and association (propertyId = SEASON_SEASONDAYTYPESCHEDULES, type = SEASONDAYTYPESCHEDULE). Reason: Getting related values for resource with ID = 0x000000030000000a failed. Failed to get related values for source GID = 0x000000030000000a. Entity with GID = 0x000000030000000a does not contain prperty with Id = SEASON_SEASONDAYTYPESCHEDULES..
+11/14/2022 5:58:21 PM : Network Model Service Test Client is up and running...
+11/14/2022 5:58:21 PM : Result directory: ../Results
+11/14/2022 5:58:51 PM : Getting values method started.
+11/14/2022 5:58:51 PM : Getting values method successfully finished.
+11/14/2022 5:59:55 PM : Getting related values method started.
+11/14/2022 5:59:55 PM : Getting related values method  failed for sourceGlobalId = 12884901899 and association (propertyId = SEASON_SEASONDAYTYPESCHEDULES, type = SEASONDAYTYPESCHEDULE_SEASON). Reason: Getting related values for resource with ID = 0x000000030000000b failed. Failed to get related values for source GID = 0x000000030000000b. Entity with GID = 0x000000030000000b does not contain prperty with Id = SEASON_SEASONDAYTYPESCHEDULES..
+11/14/2022 8:18:16 PM : Network Model Service Test Client is up and running...
+11/14/2022 8:18:16 PM : Result directory: ../Results
+11/14/2022 8:23:18 PM : Getting values method started.
+11/14/2022 8:23:19 PM : Getting values method successfully finished.
+11/14/2022 8:25:09 PM : Getting related values method started.
+11/14/2022 8:25:09 PM : Getting related values method successfully finished.
+11/14/2022 8:25:50 PM : Entering Model Code failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputModelCode() in C:\Users\Marija\Desktop\NOVI PROJEKAT\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 198
+11/14/2022 8:25:50 PM : GetExtentValues failed. Input string was not in a correct format.
+11/14/2022 8:27:05 PM : Getting related values method started.
+11/14/2022 8:27:06 PM : Getting related values method successfully finished.
+11/14/2022 8:28:18 PM : Getting related values method started.
+11/14/2022 8:28:18 PM : Getting related values method successfully finished.
+11/14/2022 8:28:42 PM : Apply update method started.
+11/14/2022 8:28:42 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000d
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000d
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000d
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000d
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000d
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000d
+
+11/14/2022 8:28:57 PM : Getting values method started.
+11/14/2022 8:28:57 PM : Getting values method successfully finished.
+11/14/2022 8:30:00 PM : Getting related values method started.
+11/14/2022 8:30:00 PM : Getting related values method successfully finished.
+11/14/2022 8:30:50 PM : Getting related values method started.
+11/14/2022 8:30:50 PM : Getting related values method successfully finished.
+11/14/2022 8:31:36 PM : Entering entity id failed. Please use hex (0x) or decimal format.
+11/14/2022 8:31:36 PM : GetValues failed. Input string was not in a correct format.
+11/14/2022 8:31:37 PM : Apply update method started.
+11/14/2022 8:31:37 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000e
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000e
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000e
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000e
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000e
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000e
+
+11/14/2022 8:31:42 PM : Getting values method started.
+11/14/2022 8:31:42 PM : Getting values method successfully finished.
+11/14/2022 8:32:51 PM : Getting related values method started.
+11/14/2022 8:32:51 PM : Getting related values method successfully finished.
+11/14/2022 8:33:24 PM : Getting extent values method started.
+11/14/2022 8:33:25 PM : Getting extent values method successfully finished.
+11/14/2022 8:34:15 PM : Getting extent values method started.
+11/14/2022 8:34:15 PM : Getting extent values method failed for 8589934606.
+	Invalid Model Code: 8589934606
+11/14/2022 8:34:56 PM : Getting extent values method started.
+11/14/2022 8:34:57 PM : Getting extent values method successfully finished.
+11/14/2022 8:35:38 PM : Apply update method started.
+11/14/2022 8:35:38 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x000000010000000f
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x000000020000000f
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x000000030000000f
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x000000040000000f
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x000000050000000f
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x000000060000000f
+
+11/14/2022 8:35:44 PM : Getting values method started.
+11/14/2022 8:35:44 PM : Getting values method successfully finished.
+11/14/2022 8:36:11 PM : Getting extent values method started.
+11/14/2022 8:36:12 PM : Getting extent values method successfully finished.
+11/14/2022 8:36:52 PM : Getting related values method started.
+11/14/2022 8:36:53 PM : Getting related values method  failed for sourceGlobalId = 12884901903 and association (propertyId = SEASON_SEASONDAYTYPESCHEDULES, type = SEASONDAYTYPESCHEDULE). Reason: Getting related values for resource with ID = 0x000000030000000f failed. Failed to get related values for source GID = 0x000000030000000f. Entity with GID = 0x000000030000000f does not contain prperty with Id = SEASON_SEASONDAYTYPESCHEDULES..
+11/14/2022 8:37:14 PM : Apply update method started.
+11/14/2022 8:37:14 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000010
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000010
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000010
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000010
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000010
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000010
+
+11/14/2022 8:37:28 PM : Getting values method started.
+11/14/2022 8:37:28 PM : Getting values method successfully finished.
+11/14/2022 8:37:53 PM : Getting related values method started.
+11/14/2022 8:37:54 PM : Getting related values method successfully finished.
+11/14/2022 9:49:04 PM : Network Model Service Test Client is up and running...
+11/14/2022 9:49:04 PM : Result directory: ../Results
+11/14/2022 9:53:20 PM : Network Model Service Test Client is up and running...
+11/14/2022 9:53:20 PM : Result directory: ../Results
+11/14/2022 9:55:31 PM : Getting terminals values method started.
+11/14/2022 11:05:42 PM : Network Model Service Test Client is up and running...
+11/14/2022 11:05:42 PM : Result directory: ../Results
+11/14/2022 11:06:25 PM : Getting terminals values method started.
+11/14/2022 11:07:55 PM : Getting Regulating controls for Terminal with lowest gid method started.
+11/17/2022 12:45:24 PM : Network Model Service Test Client is up and running...
+11/17/2022 12:45:24 PM : Result directory: ../Results
+11/17/2022 12:46:09 PM : Getting values method started.
+11/17/2022 12:46:10 PM : Getting values method successfully finished.
+11/17/2022 12:49:08 PM : Getting extent values method started.
+11/17/2022 12:49:09 PM : Getting extent values method successfully finished.
+11/17/2022 12:49:55 PM : Getting extent values method started.
+11/17/2022 12:49:56 PM : Getting extent values method successfully finished.
+11/17/2022 12:51:02 PM : Getting related values method started.
+11/17/2022 12:51:02 PM : Getting related values method successfully finished.
+11/17/2022 12:52:25 PM : Getting related values method started.
+11/17/2022 12:52:25 PM : Getting related values method successfully finished.
+11/17/2022 12:52:49 PM : Getting terminals values method started.
+11/17/2022 12:53:11 PM : Getting terminals values method started.
+11/17/2022 12:53:42 PM : Getting Regulating controls for Terminal with lowest gid method started.
+11/17/2022 3:31:30 PM : Network Model Service Test Client is up and running...
+11/17/2022 3:31:30 PM : Result directory: ../Results
+11/17/2022 3:32:28 PM : Getting Regulating controls for Terminal with lowest gid method started.
+11/17/2022 3:36:31 PM : Getting values method started.
+11/17/2022 3:36:31 PM : Getting values method successfully finished.

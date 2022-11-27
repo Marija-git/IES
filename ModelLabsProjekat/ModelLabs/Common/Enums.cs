@@ -1,0 +1,97 @@
+﻿using System;
+
+namespace FTN.Common
+{
+	public enum PhaseCode : short
+	{
+		Unknown = 0x0,
+		N = 0x1,
+		C = 0x2,
+		CN = 0x3,
+		B = 0x4,
+		BN = 0x5,
+		BC = 0x6,
+		BCN = 0x7,
+		A = 0x8,
+		AN = 0x9,
+		AC = 0xA,
+		ACN = 0xB,
+		AB = 0xC,
+		ABN = 0xD,
+		ABC = 0xE,
+		ABCN = 0xF,
+
+		s1 = 0x11,
+		s12 = 0x12,
+		s12N = 0x13,
+		s1N = 0x14,
+		s2 = 0x15,
+		s2N = 0x16
+
+	}
+
+	public enum RegulatingControlModeKind : short
+	{
+		activePower = 1,
+		admittance = 2,
+		currentFlow = 3,
+		@fixed = 4,
+		powerFactor = 5,
+		reactivePower = 6,
+		temperature = 7,
+		timeScheduled = 8,
+		voltage = 9
+
+	}
+
+	public enum UnitMultiplier : short
+	{
+		c = 0x1,
+		d = 0x2,
+		G = 0x3,
+		k = 0x4,
+		m = 0x5,
+		M = 0x6,
+		micro = 0x7,
+		n = 0x8,
+		none = 0x9,
+		p = 0xA,
+		T = 0xB
+	}
+
+	public enum UnitSymbol : short
+	{
+		A = 0x1,
+		deg = 0x2,
+		degC = 0x3,
+		F = 0x4,
+		g = 0x5,
+		h = 0x6,
+		H = 0x7,
+		Hz = 0x8,
+		J = 0x9,
+		m = 0xA,
+		m2 = 0xB,
+		m3 = 0xC,
+		min = 0xD,
+		N = 0xE,
+		none = 0xF,
+		ohm = 0x11,
+		Pa = 0x12,
+		rad = 0x13,
+		s = 0x14,
+		S = 0x15,
+		V = 0x16,
+		VA = 0x17,
+		VAh = 0x18,
+		VAr = 0x19,
+		VArh = 0x1A,
+		W = 0x1B,
+		Wh = 0x1C
+
+	}
+
+
+
+
+}
